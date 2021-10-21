@@ -1,0 +1,39 @@
+{
+    "logotipoYbanner" : 
+    [
+        {"img" : "../IMG/fotoPrueba.png"},
+        {"img" : "../IMG/fotoPrueba.png"},
+        {"img" : "../IMG/fotoPrueba.png"},
+        {"img" : "../IMG/fotoPrueba.png"},
+        {"img" : "../IMG/fotoPrueba.png"},
+        {"img" : "../IMG/fotoPrueba.png"}
+    ],
+
+    "texturas" :
+    [
+        {"img" : "../IMG/fotoPrueba.png"},
+        {"img" : "../IMG/fotoPrueba.png"},
+        {"img" : "../IMG/fotoPrueba.png"}
+    ],
+
+    "modelado" :
+    [
+        {"img" : "../IMG/fotoPrueba.png"},
+        {"img" : "../IMG/fotoPrueba.png"},
+        {"img" : "../IMG/fotoPrueba.png"}
+    ],
+
+    "animation" :
+    [
+        {"img" : "../video/video1.mp4"},
+        {"img" : "../video/video1.mp4"},
+        {"img" : "../video/video1.mp4"}
+    ],
+
+    "marcaApi" :
+    [
+        {"img" : "../IMG/fotoPrueba.png"},
+        {"img" : "../IMG/fotoPrueba.png"},
+        {"img" : "../IMG/fotoPrueba.png"}
+    ]
+}
