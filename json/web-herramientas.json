@@ -1,23 +1,23 @@
 [
     {
         "img" : "../IMG/fotoPrueba.png",
-        "title" : "Herramientas 1",
+        "title" : "Carrito de Compras",
         "descp" : " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur amet odit voluptate, praesentium beatae incidunt hic voluptatum aliquam dignissimos dolore!",
-        "url" : "link1"
+        "url" : "https://compra-carrito.netlify.app"
     },
 
     {
         "img" : "../IMG/fotoPrueba.png",
-        "title" : "Herramientas 2",
+        "title" : "Tarjetas Informativas",
         "descp" : " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur amet odit voluptate, praesentium beatae incidunt hic voluptatum aliquam dignissimos dolore!",
-        "url" : "link2"
+        "url" : "https://card-dinamica.netlify.app"
     },
 
     {
         "img" : "../IMG/fotoPrueba.png",
-        "title" : "Herramientas 3",
+        "title" : "Git Hub Usuario",
         "descp" : " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur amet odit voluptate, praesentium beatae incidunt hic voluptatum aliquam dignissimos dolore!",
-        "url" : "link3"
+        "url" : "https://repos-usuario.netlify.app"
     },
 
     {

@@ -1,9 +1,9 @@
 [
     {
         "img" : "../IMG/fotoPrueba.png",
-        "title" : "WEB1",
+        "title" : "Emisora Digital",
         "descp" : " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur amet odit voluptate, praesentium beatae incidunt hic voluptatum aliquam dignissimos dolore!",
-        "url" : "link1"
+        "url" : "https://emisora-web.netlify.app"
     },
 
     {

@@ -1,9 +1,9 @@
 [
     {
         "img" : "../IMG/fotoPrueba.png",
-        "title" : "INFORMATIVO1",
+        "title" : "Estetica y Composicion",
         "descp" : " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur amet odit voluptate, praesentium beatae incidunt hic voluptatum aliquam dignissimos dolore!",
-        "url" : "link1"
+        "url" : "https://principios-graficos.netlify.app/"
     },
 
     {
