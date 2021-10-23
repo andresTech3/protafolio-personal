@@ -17,7 +17,7 @@ const datos = async (dato)=>{
           <div class="card-body">
             <h5 class="card-title">${i.title}</h5>
             <p class="card-text">${i.descp}</p>
-            <a href="#" class="btn btn-primary w-100">${i.url}</a>
+            <a href="${i.url}" class="btn btn-primary w-100">${i.title}</a>
           </div>
         </div>
       </div>
