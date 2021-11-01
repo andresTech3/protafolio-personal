@@ -2,28 +2,28 @@
     {
         "img" : "../IMG/fotoPrueba.png",
         "title" : "Carrito de Compras",
-        "descp" : " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur amet odit voluptate, praesentium beatae incidunt hic voluptatum aliquam dignissimos dolore!",
+        "descp" : "Carrito de compras con manejo de datos de producto y selecciones de cada producto individualmente",
         "url" : "https://compra-carrito.netlify.app"
     },
 
     {
         "img" : "../IMG/fotoPrueba.png",
         "title" : "Tarjetas Informativas",
-        "descp" : " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur amet odit voluptate, praesentium beatae incidunt hic voluptatum aliquam dignissimos dolore!",
+        "descp" : "Personal de Empresa con descripciones como el nombre, informacion de la persona, entre muchos mas",
         "url" : "https://card-dinamica.netlify.app"
     },
 
     {
         "img" : "../IMG/fotoPrueba.png",
         "title" : "Git Hub Usuario",
-        "descp" : " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur amet odit voluptate, praesentium beatae incidunt hic voluptatum aliquam dignissimos dolore!",
+        "descp" : "Buscador de usuarios de GITHUB informando los repositorio creados, following y followers ",
         "url" : "https://repos-usuario.netlify.app"
     },
-
+        
     {
         "img" : "../IMG/fotoPrueba.png",
-        "title" : "Herramientas 4",
-        "descp" : " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur amet odit voluptate, praesentium beatae incidunt hic voluptatum aliquam dignissimos dolore!",
-        "url" : "link4"
+        "title" : "Reproductor MP3",
+        "descp" : "Reproductor de mp3 para cualquier tipo de canciones con todos los ajuste en su mayoria en los controles de reproductor",
+        "url" : "https://reproductor-mp3.netlify.app"
     }
 ]
