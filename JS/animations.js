@@ -2,6 +2,7 @@
 
 const ContentMedia = document.querySelectorAll(".rounded-pill")
 
+
 const qm = matchMedia("(max-width : 600px)")
 
 const cambioContent = (n1,n2,n3,reClass, addClass)=>{
@@ -24,3 +25,19 @@ const changeSize = () =>{
 
 qm.addEventListener("change", changeSize);
 qm.addEventListener("DOMContentLoaded", changeSize);
+
+
+
+
+
+// animaciones en el index
+
+window.addEventListener("scroll", ()=>{
+    let WindowsHeigth =  window.innerHeight/1.3;
+    let btn_IndexHeigth = ContentMedia.getBoundingClientRect().top;
+
+    if(btn_IndexHeigth <= WindowsHeigth){
+        ContentMedia.classList.add("transformUp")
+    }
+    
+})
