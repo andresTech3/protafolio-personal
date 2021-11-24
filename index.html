@@ -29,7 +29,6 @@
         background: linear-gradient(#142F43, #2020) ;
         color: #fff;
         transition: 1s;
-        
       }
 
       .contenidos-a:hover{
@@ -66,7 +65,7 @@
       /* responsive */
       @media only screen and (min-width : 500px){
         .rounded-pill{ width : 100% ;}
-          
+        
       }
 
       
@@ -77,25 +76,33 @@
     <!--cabezera-->
     <header class="pb-3 ">
       <!--menu-->
-        <nav class="navbar navbar-light bg-light">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container ">
             <a href="#" class="navbar-brand">ANDRES NARVAEZ</a>
-            <ul class="nav ">
-              <li class="nav-link ">
-                <a class="nav-link active  text-dark" aria-current="page" href="index.html">INICIO</a>
-              </li>
-              <li class="nav-link ">
-                <a class="nav-link active  text-dark" aria-current="page" href="html/fotografia.html">FOTOGRAFIA</a>
-              </li>
-              <li class="nav-link ">
-                <a class="nav-link active  text-dark" aria-current="page" href="html/web.html">WEB</a>
-              </li>
-              <li class="nav-link ">
-                <a class="nav-link active  text-dark" aria-current="page" href="html/diseño.html">DISEÑO</a>
-              </li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+              <ul class="nav ">
+                <li class="nav-link ">
+                  <a class="nav-link active  text-dark " aria-current="page" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-link ">
+                  <a class="nav-link active  text-dark"  href="html/fotografia.html">FOTOGRAFIA</a>
+                </li>
+                <li class="nav-link ">
+                  <a class="nav-link active  text-dark"  href="html/web.html">WEB</a>
+                </li>
+                <li class="nav-link ">
+                  <a class="nav-link active  text-dark"  href="html/diseño.html">DISEÑO</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
+
         <!--banner inicio-->
         <main class="container-fluid text-white rounded " style="background: linear-gradient(#142F43, #2020)">
             <div class="row">
@@ -112,29 +119,48 @@
     <!--contenido-->
     <article>
       <!--seccion conoceme-->
-      <section class="container-fluid text-white ">
-        <div class="row ">
-          <div class="col-12 col-lg-3">
-            <img class="w-100 h-100" src="IMG/andres1.png" alt="">
+      <section class="container-fluid text-white p-5 ">
+        <h5 class="h1 text-center mt-5">CONOCEME</h5>
+        <div class="container-fluid row">
+          <div class="col-12 row">
+            <div class="col-sm-12 col-sm-6">
+              <img class="w-100 h-100 " src="IMG/andres1.png" alt="">
+            </div>
+            <div class="col-sm-12 col-md-6 row">
+              <div class="col-12">
+                <p class="d-inline-block text-center">Soy un apacionado por el arte y la tecnologia, me encanta lo imnovador y que cada dia sea un nuevo reto para mi, naci en un pequeño municipio que es montelibano- cordoba - colombia, me concidero una persona muy capaz y que siempre trato de tomar las mejores deciciones, en aprender cada dia mas y ser muy eficiente y eficaz en mi trabajo</p>
+              </div>
+              <div class="col-12">
+                <img src="IMG/f4.jpg" class="w-100" alt="">
+              </div>
+            </div>
           </div>
 
-          <div class="col-12 col-lg-6 text-center m-auto" >
-            <h5 class="h1">CONOCEME</h5>
-            <p >
-              <h3 class="text-start mt-5">COMO SOY</h3>
-              Soy un apacionado por el arte y la tecnologia, me encanta lo imnovador y que cada dia sea un nuevo reto para mi, naci en un pequeño municipio que es montelibano- cordoba - colombia, me concidero una persona muy capaz y que siempre trato de tomar las mejores deciciones, en aprender cada dia mas y ser muy eficiente y eficaz en mi trabajo
-              <h3 class="text-start mt-5">ESTUDIOS</h3>
-              He realizado todos mis en montentelibano-cordoba-colombia, al terminar el bachiller realize los siguientes cursos <br>
-              - Tecnico programacion de software (SENA COLOMBIA) <br>
-              - Diseño digital modalidad virual (Domestika y platzi)<br>
-              - Actualmente estudiando INGENIERIA DE SISTEMA (Cun - universidad) 
+          <div class="col-12 row mt-4">
+            <div class="col-12 col-sm-6 row">
+              <div class="col-12 ">
+                <h3 class=" d-inline-block text-center">ESTUDIOS</h3>
+                <p class="d-inline-block text-justify">
+                He realizado todos mis en montentelibano-cordoba-colombia, al terminar el bachiller realize los siguientes cursos <br>
+                - Tecnico programacion de software (SENA COLOMBIA) <br>
+                - Diseño digital modalidad virual (Domestika y platzi)<br>
+                - Actualmente estudiando INGENIERIA DE SISTEMA (Cun - universidad)</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 ">
+              <img class="w-100 h-75" src="IMG/f5.jpg" alt="">
+            </div>
+
+
+          </div>
+
               
-            </p>
+              
+
+              
+              
+            
           </div>
-          <div class="col-12 col-lg-3">
-            <img class="w-100 h-100" src="IMG/andres2.png" alt="">
-          </div>
-        </div>
       </section>
 
       <!--seccion mis contenidoss-->
